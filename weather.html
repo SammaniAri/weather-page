@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .day {
+        font-size: large;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+      }
+      .temperature {
+        color: grey;
+        font-size: medium;
+        text-align: center;
+      }
+      .heading {
+        font-size: xx-large;
+        color: blue;
+        font-weight: bold;
+        text-align: center;
+      }
+      .subheading {
+        font-size: xx-large;
+        color: black;
+        text-align: center;
+      }
+      .subheading2 {
+        font-size: xx-large;
+        color: black;
+        text-align: center;
+      }
+
+      .everything {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+      }
+
+      button {
+        color: white;
+        font-family: "Arial";
+        background: blue;
+        font-size: large;
+        width: 150px;
+        display: block;
+        margin: 40px auto 0 auto;
+        padding: 10px;
+        border-radius: 30px;
+        border: 1px solid blue;
+        box-shadow: none;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: white;
+        color: blue;
+        cursor: pointer;
+      }
+      .pink {
+        width: 30%;
+        height: 100px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+        padding: 10px 0;
+      }
+
+      .pink:hover {
+        background: #fffbef;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="everything">
+      <div class="heading">
+        <br />
+
+        🌤 <br />
+        Currently 21° in Tokyo
+      </div>
+      <br />
+      <div class="subheading2">13° / <strong>23°</strong></div>
+      <br />
+      <br />
+      <div>
+        <div class="pink">
+          <div class="day">🌧Tomorrow</div>
+          <br />
+
+          <div class="temperature">10° /<strong> 22°</strong></div>
+          <br />
+          <br />
+        </div>
+
+        <div class="pink">
+          <div class="day">🌥Saturday</div>
+          <br />
+          <div class="temperature">15° /<strong>17°</strong></div>
+          <br />
+          <br />
+        </div>
+        <div class="pink">
+          <div class="day">☀️Sunday</div>
+          <br />
+          <div class="temperature">25° / <strong>28°</strong></div>
+        </div>
+        <button>Change City</button>
+        <br />
+        <div>Coded by Sammani Ariyarathne</div>
+      </div>
+    </div>
+  </body>
+</html>
